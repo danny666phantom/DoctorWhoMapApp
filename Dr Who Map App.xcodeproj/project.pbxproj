@@ -14,6 +14,12 @@
 		E1FF52321CB1DA5C0087C4BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1FF52301CB1DA5C0087C4BE /* LaunchScreen.storyboard */; };
 		E1FF523D1CB1DA5C0087C4BE /* Map_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FF523C1CB1DA5C0087C4BE /* Map_DemoTests.swift */; };
 		E1FF52481CB1DA5C0087C4BE /* Map_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FF52471CB1DA5C0087C4BE /* Map_DemoUITests.swift */; };
+		E1FF52561CB1E8A40087C4BE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1FF52551CB1E8A30087C4BE /* CoreLocation.framework */; };
+		E1FF52581CB1FD0F0087C4BE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1FF52571CB1FD0F0087C4BE /* MapKit.framework */; };
+		E1FF52601CB2210D0087C4BE /* DRWHOMACHINE.png in Resources */ = {isa = PBXBuildFile; fileRef = E1FF525F1CB2210D0087C4BE /* DRWHOMACHINE.png */; };
+		E1FF52621CB222CA0087C4BE /* transportation.png in Resources */ = {isa = PBXBuildFile; fileRef = E1FF52611CB222CA0087C4BE /* transportation.png */; };
+		E1FF52641CB226F90087C4BE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1FF52631CB226F90087C4BE /* AVFoundation.framework */; };
+		E1FF52661CB22A350087C4BE /* FairyDustMagicSoundEffect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1FF52651CB22A340087C4BE /* FairyDustMagicSoundEffect.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +40,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E1FF52241CB1DA5C0087C4BE /* Map Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Map Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1FF52241CB1DA5C0087C4BE /* Dr Who Map App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dr Who Map App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1FF52271CB1DA5C0087C4BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1FF52291CB1DA5C0087C4BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E1FF522C1CB1DA5C0087C4BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E1FF522E1CB1DA5C0087C4BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1FF52311CB1DA5C0087C4BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1FF52331CB1DA5C0087C4BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E1FF52381CB1DA5C0087C4BE /* Map DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Map DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1FF52381CB1DA5C0087C4BE /* Dr Who Map App.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dr Who Map App.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1FF523C1CB1DA5C0087C4BE /* Map_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map_DemoTests.swift; sourceTree = "<group>"; };
 		E1FF523E1CB1DA5C0087C4BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E1FF52431CB1DA5C0087C4BE /* Map DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Map DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1FF52431CB1DA5C0087C4BE /* Dr Who Map App.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dr Who Map App.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1FF52471CB1DA5C0087C4BE /* Map_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map_DemoUITests.swift; sourceTree = "<group>"; };
 		E1FF52491CB1DA5C0087C4BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1FF52551CB1E8A30087C4BE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E1FF52571CB1FD0F0087C4BE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E1FF525F1CB2210D0087C4BE /* DRWHOMACHINE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DRWHOMACHINE.png; sourceTree = "<group>"; };
+		E1FF52611CB222CA0087C4BE /* transportation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transportation.png; sourceTree = "<group>"; };
+		E1FF52631CB226F90087C4BE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E1FF52651CB22A340087C4BE /* FairyDustMagicSoundEffect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FairyDustMagicSoundEffect.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1FF52641CB226F90087C4BE /* AVFoundation.framework in Frameworks */,
+				E1FF52581CB1FD0F0087C4BE /* MapKit.framework in Frameworks */,
+				E1FF52561CB1E8A40087C4BE /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +92,9 @@
 		E1FF521B1CB1DA5C0087C4BE = {
 			isa = PBXGroup;
 			children = (
+				E1FF52631CB226F90087C4BE /* AVFoundation.framework */,
+				E1FF52571CB1FD0F0087C4BE /* MapKit.framework */,
+				E1FF52551CB1E8A30087C4BE /* CoreLocation.framework */,
 				E1FF52261CB1DA5C0087C4BE /* Map Demo */,
 				E1FF523B1CB1DA5C0087C4BE /* Map DemoTests */,
 				E1FF52461CB1DA5C0087C4BE /* Map DemoUITests */,
@@ -87,9 +105,9 @@
 		E1FF52251CB1DA5C0087C4BE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E1FF52241CB1DA5C0087C4BE /* Map Demo.app */,
-				E1FF52381CB1DA5C0087C4BE /* Map DemoTests.xctest */,
-				E1FF52431CB1DA5C0087C4BE /* Map DemoUITests.xctest */,
+				E1FF52241CB1DA5C0087C4BE /* Dr Who Map App.app */,
+				E1FF52381CB1DA5C0087C4BE /* Dr Who Map App.xctest */,
+				E1FF52431CB1DA5C0087C4BE /* Dr Who Map App.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +115,9 @@
 		E1FF52261CB1DA5C0087C4BE /* Map Demo */ = {
 			isa = PBXGroup;
 			children = (
+				E1FF52651CB22A340087C4BE /* FairyDustMagicSoundEffect.mp3 */,
+				E1FF52611CB222CA0087C4BE /* transportation.png */,
+				E1FF525F1CB2210D0087C4BE /* DRWHOMACHINE.png */,
 				E1FF52271CB1DA5C0087C4BE /* AppDelegate.swift */,
 				E1FF52291CB1DA5C0087C4BE /* ViewController.swift */,
 				E1FF522B1CB1DA5C0087C4BE /* Main.storyboard */,
@@ -128,9 +149,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E1FF52231CB1DA5C0087C4BE /* Map Demo */ = {
+		E1FF52231CB1DA5C0087C4BE /* Dr Who Map App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E1FF524C1CB1DA5C0087C4BE /* Build configuration list for PBXNativeTarget "Map Demo" */;
+			buildConfigurationList = E1FF524C1CB1DA5C0087C4BE /* Build configuration list for PBXNativeTarget "Dr Who Map App" */;
 			buildPhases = (
 				E1FF52201CB1DA5C0087C4BE /* Sources */,
 				E1FF52211CB1DA5C0087C4BE /* Frameworks */,
@@ -140,14 +161,14 @@
 			);
 			dependencies = (
 			);
-			name = "Map Demo";
+			name = "Dr Who Map App";
 			productName = "Map Demo";
-			productReference = E1FF52241CB1DA5C0087C4BE /* Map Demo.app */;
+			productReference = E1FF52241CB1DA5C0087C4BE /* Dr Who Map App.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E1FF52371CB1DA5C0087C4BE /* Map DemoTests */ = {
+		E1FF52371CB1DA5C0087C4BE /* Dr Who Map AppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E1FF524F1CB1DA5C0087C4BE /* Build configuration list for PBXNativeTarget "Map DemoTests" */;
+			buildConfigurationList = E1FF524F1CB1DA5C0087C4BE /* Build configuration list for PBXNativeTarget "Dr Who Map AppTests" */;
 			buildPhases = (
 				E1FF52341CB1DA5C0087C4BE /* Sources */,
 				E1FF52351CB1DA5C0087C4BE /* Frameworks */,
@@ -158,14 +179,14 @@
 			dependencies = (
 				E1FF523A1CB1DA5C0087C4BE /* PBXTargetDependency */,
 			);
-			name = "Map DemoTests";
+			name = "Dr Who Map AppTests";
 			productName = "Map DemoTests";
-			productReference = E1FF52381CB1DA5C0087C4BE /* Map DemoTests.xctest */;
+			productReference = E1FF52381CB1DA5C0087C4BE /* Dr Who Map App.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E1FF52421CB1DA5C0087C4BE /* Map DemoUITests */ = {
+		E1FF52421CB1DA5C0087C4BE /* Dr Who Map AppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E1FF52521CB1DA5C0087C4BE /* Build configuration list for PBXNativeTarget "Map DemoUITests" */;
+			buildConfigurationList = E1FF52521CB1DA5C0087C4BE /* Build configuration list for PBXNativeTarget "Dr Who Map AppUITests" */;
 			buildPhases = (
 				E1FF523F1CB1DA5C0087C4BE /* Sources */,
 				E1FF52401CB1DA5C0087C4BE /* Frameworks */,
@@ -176,9 +197,9 @@
 			dependencies = (
 				E1FF52451CB1DA5C0087C4BE /* PBXTargetDependency */,
 			);
-			name = "Map DemoUITests";
+			name = "Dr Who Map AppUITests";
 			productName = "Map DemoUITests";
-			productReference = E1FF52431CB1DA5C0087C4BE /* Map DemoUITests.xctest */;
+			productReference = E1FF52431CB1DA5C0087C4BE /* Dr Who Map App.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -193,6 +214,11 @@
 				TargetAttributes = {
 					E1FF52231CB1DA5C0087C4BE = {
 						CreatedOnToolsVersion = 7.1.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					E1FF52371CB1DA5C0087C4BE = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -204,7 +230,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E1FF521F1CB1DA5C0087C4BE /* Build configuration list for PBXProject "Map Demo" */;
+			buildConfigurationList = E1FF521F1CB1DA5C0087C4BE /* Build configuration list for PBXProject "Dr Who Map App" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,9 +243,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E1FF52231CB1DA5C0087C4BE /* Map Demo */,
-				E1FF52371CB1DA5C0087C4BE /* Map DemoTests */,
-				E1FF52421CB1DA5C0087C4BE /* Map DemoUITests */,
+				E1FF52231CB1DA5C0087C4BE /* Dr Who Map App */,
+				E1FF52371CB1DA5C0087C4BE /* Dr Who Map AppTests */,
+				E1FF52421CB1DA5C0087C4BE /* Dr Who Map AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,9 +255,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1FF52601CB2210D0087C4BE /* DRWHOMACHINE.png in Resources */,
 				E1FF52321CB1DA5C0087C4BE /* LaunchScreen.storyboard in Resources */,
+				E1FF52621CB222CA0087C4BE /* transportation.png in Resources */,
 				E1FF522F1CB1DA5C0087C4BE /* Assets.xcassets in Resources */,
 				E1FF522D1CB1DA5C0087C4BE /* Main.storyboard in Resources */,
+				E1FF52661CB22A350087C4BE /* FairyDustMagicSoundEffect.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,12 +311,12 @@
 /* Begin PBXTargetDependency section */
 		E1FF523A1CB1DA5C0087C4BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E1FF52231CB1DA5C0087C4BE /* Map Demo */;
+			target = E1FF52231CB1DA5C0087C4BE /* Dr Who Map App */;
 			targetProxy = E1FF52391CB1DA5C0087C4BE /* PBXContainerItemProxy */;
 		};
 		E1FF52451CB1DA5C0087C4BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E1FF52231CB1DA5C0087C4BE /* Map Demo */;
+			target = E1FF52231CB1DA5C0087C4BE /* Dr Who Map App */;
 			targetProxy = E1FF52441CB1DA5C0087C4BE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -400,7 +429,7 @@
 				INFOPLIST_FILE = "Map Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.slcc.csis2640.Map-Demo";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Dr Who Map App";
 			};
 			name = Debug;
 		};
@@ -411,7 +440,7 @@
 				INFOPLIST_FILE = "Map Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.slcc.csis2640.Map-Demo";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Dr Who Map App";
 			};
 			name = Release;
 		};
@@ -422,8 +451,8 @@
 				INFOPLIST_FILE = "Map DemoTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.slcc.csis2640.Map-DemoTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Map Demo.app/Map Demo";
+				PRODUCT_NAME = "Dr Who Map App";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dr Who Map App.app/Dr Who Map App";
 			};
 			name = Debug;
 		};
@@ -434,8 +463,8 @@
 				INFOPLIST_FILE = "Map DemoTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.slcc.csis2640.Map-DemoTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Map Demo.app/Map Demo";
+				PRODUCT_NAME = "Dr Who Map App";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dr Who Map App.app/Dr Who Map App";
 			};
 			name = Release;
 		};
@@ -445,7 +474,7 @@
 				INFOPLIST_FILE = "Map DemoUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.slcc.csis2640.Map-DemoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Dr Who Map App";
 				TEST_TARGET_NAME = "Map Demo";
 				USES_XCTRUNNER = YES;
 			};
@@ -457,7 +486,7 @@
 				INFOPLIST_FILE = "Map DemoUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.slcc.csis2640.Map-DemoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Dr Who Map App";
 				TEST_TARGET_NAME = "Map Demo";
 				USES_XCTRUNNER = YES;
 			};
@@ -466,7 +495,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E1FF521F1CB1DA5C0087C4BE /* Build configuration list for PBXProject "Map Demo" */ = {
+		E1FF521F1CB1DA5C0087C4BE /* Build configuration list for PBXProject "Dr Who Map App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E1FF524A1CB1DA5C0087C4BE /* Debug */,
@@ -475,29 +504,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E1FF524C1CB1DA5C0087C4BE /* Build configuration list for PBXNativeTarget "Map Demo" */ = {
+		E1FF524C1CB1DA5C0087C4BE /* Build configuration list for PBXNativeTarget "Dr Who Map App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E1FF524D1CB1DA5C0087C4BE /* Debug */,
 				E1FF524E1CB1DA5C0087C4BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		E1FF524F1CB1DA5C0087C4BE /* Build configuration list for PBXNativeTarget "Map DemoTests" */ = {
+		E1FF524F1CB1DA5C0087C4BE /* Build configuration list for PBXNativeTarget "Dr Who Map AppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E1FF52501CB1DA5C0087C4BE /* Debug */,
 				E1FF52511CB1DA5C0087C4BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		E1FF52521CB1DA5C0087C4BE /* Build configuration list for PBXNativeTarget "Map DemoUITests" */ = {
+		E1FF52521CB1DA5C0087C4BE /* Build configuration list for PBXNativeTarget "Dr Who Map AppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E1FF52531CB1DA5C0087C4BE /* Debug */,
 				E1FF52541CB1DA5C0087C4BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

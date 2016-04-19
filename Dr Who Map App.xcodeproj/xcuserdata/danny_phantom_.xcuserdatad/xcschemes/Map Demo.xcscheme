@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E1FF52231CB1DA5C0087C4BE"
-               BuildableName = "Map Demo.app"
-               BlueprintName = "Map Demo"
-               ReferencedContainer = "container:Map Demo.xcodeproj">
+               BuildableName = "Dr Who Map App.app"
+               BlueprintName = "Dr Who Map App"
+               ReferencedContainer = "container:Dr Who Map App.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E1FF52371CB1DA5C0087C4BE"
-               BuildableName = "Map DemoTests.xctest"
-               BlueprintName = "Map DemoTests"
-               ReferencedContainer = "container:Map Demo.xcodeproj">
+               BuildableName = "Dr Who Map App.xctest"
+               BlueprintName = "Dr Who Map AppTests"
+               ReferencedContainer = "container:Dr Who Map App.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E1FF52421CB1DA5C0087C4BE"
-               BuildableName = "Map DemoUITests.xctest"
-               BlueprintName = "Map DemoUITests"
-               ReferencedContainer = "container:Map Demo.xcodeproj">
+               BuildableName = "Dr Who Map App.xctest"
+               BlueprintName = "Dr Who Map AppUITests"
+               ReferencedContainer = "container:Dr Who Map App.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E1FF52231CB1DA5C0087C4BE"
-            BuildableName = "Map Demo.app"
-            BlueprintName = "Map Demo"
-            ReferencedContainer = "container:Map Demo.xcodeproj">
+            BuildableName = "Dr Who Map App.app"
+            BlueprintName = "Dr Who Map App"
+            ReferencedContainer = "container:Dr Who Map App.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E1FF52231CB1DA5C0087C4BE"
-            BuildableName = "Map Demo.app"
-            BlueprintName = "Map Demo"
-            ReferencedContainer = "container:Map Demo.xcodeproj">
+            BuildableName = "Dr Who Map App.app"
+            BlueprintName = "Dr Who Map App"
+            ReferencedContainer = "container:Dr Who Map App.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E1FF52231CB1DA5C0087C4BE"
-            BuildableName = "Map Demo.app"
-            BlueprintName = "Map Demo"
-            ReferencedContainer = "container:Map Demo.xcodeproj">
+            BuildableName = "Dr Who Map App.app"
+            BlueprintName = "Dr Who Map App"
+            ReferencedContainer = "container:Dr Who Map App.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
